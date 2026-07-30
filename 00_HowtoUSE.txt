@@ -1,5 +1,9 @@
-Run on SHELL:
+Run on SHELL on the folder you want to work:
+
+Type listscripts to see the available scrips
 
 Type name of the script
 
-EXR_Compression
+EXRCompress
+
+It will run on cd

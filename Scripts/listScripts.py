@@ -2,9 +2,11 @@ import os
 
 def get_command_descriptions():
     return {
+        "addToName":     "Adds a prefix or suffix to all files in the current folder",
         "createMontage": "Creates a grid montage from all PNGs in the folder",
         "EXRcompress":   "Compresses EXR files (DWAA, float16 half precision)",
         "EXRread":       "Prints EXR header metadata (compression, data window, etc.)",
+        "extractPalette": "Extracts average and dominant colors from an image and saves a palette preview",
         "flipimage":     "Flips/mirrors an image horizontally or vertically",
         "GIFtoWebp":     "Converts GIF animations to WebP format",
         "icoLayers":     "Rebuilds .ico files with multi-resolution layers (16-256px)",
@@ -23,8 +25,6 @@ def get_command_descriptions():
         "toTiff":        "Converts PNGs to 64x64 TIFF (Cinema 4D-style metadata)",
         "toWeb":         "Batch-converts images to web-ready JPG and noise-dithered WebP",
         # Present but currently empty / unimplemented — listed so they're not forgotten
-        "MP4toWebp":     "(empty placeholder — not yet implemented)",
-        "renameFiles":   "(empty placeholder — not yet implemented)",
     }
 
 def list_scripts():

@@ -2,6 +2,23 @@
 
 A collection of Windows batch and Python scripts for image and video conversion, montage creation, EXR handling, and related utilities.
 
+## Project layout
+
+The main scripts now live in the Scripts folder to keep the project easier to manage:
+
+- Scripts/ contains the batch files and Python scripts
+- install.bat adds the Scripts folder to your user PATH so the scripts can be launched from anywhere
+
+## Installation
+
+Run the installer once from the project root:
+
+```bat
+install.bat
+```
+
+This updates your user PATH so commands such as `createMontage.bat` can be run from any terminal after opening a new session.
+
 ## Dependencies
 
 This project relies on both Python packages and external system tools.
