@@ -1,0 +1,5 @@
+OpenEXR
+Imath
+numpy
+Pillow
+OpenImageIO
