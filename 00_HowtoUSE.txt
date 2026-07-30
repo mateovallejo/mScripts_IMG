@@ -1,0 +1,5 @@
+Run on SHELL:
+
+Type name of the script
+
+EXR_Compression
