@@ -1,2 +1,2 @@
 @echo off
-python "C:\Program Files\mScriptsIMG\EXRread.py" %*
+python "%~dp0EXRread.py" %*

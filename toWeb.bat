@@ -1,2 +1,2 @@
 @echo off
-python "C:\Program Files\mScriptsIMG\toWeb.py" %*
+python "%~dp0toWeb.py" %*

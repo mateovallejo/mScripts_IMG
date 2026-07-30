@@ -1,3 +1,3 @@
 @echo off
-python listScripts.py
+python "%~dp0listScripts.py"
 pause

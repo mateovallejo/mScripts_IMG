@@ -1,2 +1,2 @@
 @echo off
-python "C:\Program Files\mScriptsIMG\MP4toWebp24.py" %*
+python "%~dp0MP4toWebp24.py" %*

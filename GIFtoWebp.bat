@@ -1,2 +1,2 @@
 @echo off
-python "C:\Program Files\mScriptsIMG\GIFtoWebp.py" %*
+python "%~dp0GIFtoWebp.py" %*

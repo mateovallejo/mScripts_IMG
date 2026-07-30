@@ -1,2 +1,2 @@
 @echo off
-python "C:\Program Files\mScriptsIMG\MP4toWebp15.py" %*
+python "%~dp0MP4toWebp15.py" %*

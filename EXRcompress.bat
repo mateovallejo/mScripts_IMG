@@ -1,2 +1,2 @@
 @echo off
-python "C:\Program Files\mScriptsIMG\EXRcompress.py" %*
+python "%~dp0EXRcompress.py" %*

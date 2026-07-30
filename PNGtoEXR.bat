@@ -1,2 +1,2 @@
 @echo off
-python "C:\Program Files\mScriptsIMG\PNGtoEXR.py" %*
+python "%~dp0PNGtoEXR.py" %*
